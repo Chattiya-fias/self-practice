@@ -1,0 +1,12 @@
+- part 01 ทบทวนและฝึกการสร้าง object แบบ object literal ที่เก็บค่าหลาย type รวมถึงเก็บ function และ object โดยเอาสิ่งที่ทำจากในคลาส
+มาเพิ่มเติมเพื่อให้ object มีความซับซ้อนมากขึ้น
+- part 02 ทบทวนการเพิ่มและลบ property ของ object จากในคลาส
+- part 03 ทำความเข้าใจการเรียกใช้ property เพื่ออ่านและแสดงค่า ทั้ง 5 แบบ เพื่อนำไปปรับใช้ในอนาคต
+- part 04 นำ object literal ที่สร้างเอาไว้มาดัดแปลงเป็นแบบ constructure function และมี constructure function ที่ซ้อนอยู่อีกที
+- part 05 นำ constructure function ที่สร้างเอาไว้มาดัดแปลงเป็นแบบ class และมี class ซ้อนอยู่คล้าย part 04
+- part 06 ฝึกสร้าง object จาก object ที่มีอยู่แล้ว นำมาเป็น prototype เพื่อลดการสร้าง object ที่เหมือนกันซ้ำ
+- part 07 ฝึก destructuring object และฝึกทำโจทย์ destructuring จาก AI ที่ผสม array + object
+- part 08 ทบทวนเรื่องความเท่ากันของ object จากในห้องเรียนและศึกษาเพิ่มเติมถึงการใช้ === และ Object.is()
+- part 09 ทบทวน method Objecy.key() และ Object.values() ที่ยังไม่ค่อยเข้าใจ รวมถึงทำความเข้าใจ function shallowEquality 
+ที่ให้โจทย์ไว้ในคลาส จากความเข้าใจของตัวเองและถาม AI เพิ่มเติมถึงการใช้ .length เพือเอามาเช็คใน function
+- part 10 ศึกษาการเช็ค empty object จากในสไลด์ของอาจารย์ และทำความเข้าใจ method JSON.stringify() เพิ่มเติม
