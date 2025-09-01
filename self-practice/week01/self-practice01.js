@@ -11,20 +11,19 @@ if (Array.isArray(x)) {
   }
 }
 
-
 /* part02 */
 console.log('--- part02 ---')
 let o = ['sit', 'it', 70]
-/* growing */
+//growing
 o.push('chattiya') //เพิ่มค่าเข้าไป
 o[o.length+1] = 'fias' //เพิ่ม slot และเพิ่มค่า
 console.log(`array o :`, o)
 console.log(`length of o : ${o.length}`)
-/* selete */
+//selete
 delete o[0] //ค่าหายแต่ slot ยังอยู่
 console.log(`delete index 0 of o :`, o)
 console.log(`length of o : ${o.length}`)
-/* shrinking */
+//shrinking
 o.pop() //pop ให้ค่าตัวสุดท้ายและ slot หาย
 console.log(`pop o :`, o)
 console.log(`length of o : ${o.length}`)
@@ -41,19 +40,17 @@ o.splice(1, 1);
 console.log(`splice o : `, o) 
 console.log(`length of o : ${o.length}`)
 
-
 /* part03 */
 console.log('--- part03 ---')
-/* array contains many objects */
+//array contains many objects
 const colors=[{id:1, name:'red', tone:'hot'},{id:2, name:'purple', tone:'cool'},{id:3, name:'white', tone:'neutral'}]
 console.log(colors[1].name)
 const contacts=[{email:['abc@gmail.com','foo@kmutt.ac.th']},{address:['Bangkok', 'Puket']}]
 console.log(contacts[0].email[1])
-/* array contains many arrays */
+//array contains many arrays
 const groups=[['Malee', 'Jane'], ['John', 'Jay', 'Pete']]
 console.log(groups[0][1])
 console.log(groups.map(group => group[group.length - 1]))
-
 
 /* part04 */
 console.log("--- part04 ---")
@@ -100,7 +97,6 @@ function question102(num102){ //ใช้ method
 }
 let num102 = [3,3,3]
 console.log(question102(num102))
-
 
 /* part06 */
 console.log("--- part06 ---")
